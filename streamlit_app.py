@@ -42,7 +42,7 @@ retriever = vectorstore.as_retriever(search_kwargs={"k": 3})
 llm = ChatOpenAI(
     openai_api_key=OPENROUTER_API_KEY,
     openai_api_base="https://openrouter.ai/api/v1",
-    model_name="meta-llama/llama-3-8b-instruct:free",
+    model_name="openai/gpt-4o-mini",
     temperature=0.1
 )
 
