@@ -74,6 +74,19 @@ st.markdown("""
     header {visibility: hidden;}
     footer {visibility: hidden;}
     #MainMenu {visibility: hidden;}
+    
+    /* Streamlit Cloud 임베드 워터마크 및 Fullscreen 버튼 숨기기 */
+    .viewerBadge_container__1JCIV,
+    .viewerBadge_link__1S137,
+    .viewerBadge_text__1JaDK,
+    [data-testid="viewerBadge"] {
+        display: none !important;
+    }
+    
+    /* iframe 하단의 하얀 툴바/여백 완전 제거 */
+    #stApp > div > div {
+        padding-bottom: 0px !important;
+    }
 </style>
 """, unsafe_allow_html=True)
 
