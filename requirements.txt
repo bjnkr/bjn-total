@@ -2,9 +2,14 @@
 torch
 torchvision
 streamlit
+requests
 langchain
 langchain-community
 langchain-openai
+langchain-core
 faiss-cpu
+openai
+tiktoken
+python-dotenv
 sentence-transformers
-huggingface-hubrequirements.txt
+huggingface-hub
