@@ -87,6 +87,11 @@ st.markdown("""
     #stApp > div > div {
         padding-bottom: 0px !important;
     }
+
+    /* 챗봇 마크다운 답변의 헤더 크기 축소 */
+    h1 { font-size: 1.3rem !important; padding-bottom: 0.2rem !important; }
+    h2 { font-size: 1.2rem !important; padding-bottom: 0.2rem !important; }
+    h3 { font-size: 1.1rem !important; padding-bottom: 0.2rem !important; }
 </style>
 """, unsafe_allow_html=True)
 
